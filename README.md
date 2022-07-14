@@ -51,7 +51,7 @@ SQS is distributed queuing system. Messages are not pushed to receivers. Receive
 const AWS = require('aws-sdk');
 require('dotenv').config();
 AWS.config.update({
-    region: 'us-east-1',
+    region: 'us-west-1',
     accessKeyId: process.env.AWS_ACCESS_ID,
     secretAccessKey: process.env.AWS_SECRET_KEY
 });
