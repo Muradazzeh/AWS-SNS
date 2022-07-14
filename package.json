@@ -1,0 +1,24 @@
+{
+  "name": "aws-sns",
+  "version": "1.0.0",
+  "description": "* SQS and SNS are important components for scalable, large scale, distributed, cloud-based applications:",
+  "main": "publish.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muradazzeh/AWS-SNS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muradazzeh/AWS-SNS/issues"
+  },
+  "homepage": "https://github.com/Muradazzeh/AWS-SNS#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1174.0",
+    "dotenv": "^16.0.1"
+  }
+}
